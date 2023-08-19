@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #1a1a1a;
+}
+
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+/*header*/
+/* background top left box of header*/
+.box{
+    padding: 16em 6em 6em 6em;
+    background-color: #e39101;
+    position:absolute;
+    z-index: -1;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    padding-top: 4em;
+    margin-left: 12em;
+    display: flex;
+
+    
+}
+
+.headerNav{
+    margin: 2em;
+    margin-left: 10em;
+    
+}
+
+.headerbtn{
+    justify-content: flex-end;
+    justify-content: end;
+    margin-right: 10em;
+    background-color: #e39101;
+    border: 0;
+    color: white;
+    padding:1em;
+    height: 3em;
+    display: flex;
+
+}
+.headerbtn:hover {
+    background-color:#9e6500 ;
+}
+.headerbtn:active {
+    transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.headerNav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 8em;
+    margin-right: 55em;
+    justify-content: space-between;
+    
+    
+    
+}
+.headerNav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+   
+}
+
+.logo{
+    height: 8em;
+    width: auto;
+    margin-left: -4em;
+}
+/* Hero section*/
+.hero{
+    display: flex;
+}
+/* socialmedia div*/
+.socialMedia{
+    height: 520px;
+    width: 100px;
+    margin-left: 6em;
+    margin-top: 13em;
+}
+/* list of the icons */
+.socialMedia ul {  
+    list-style-type: none;
+    line-height: 50px;
+    
+    
+} 
+
+.socialMedia a{
+    color: white;
+    display: block;
+    gap: 1em;
+    margin: 5em;
+}
+/* Hero div for texts and button*/
+.heroTexts{
+    display: block;
+   height: 53em;
+   width: 52em;
+   margin-top: 15em;
+   margin-left: 19em;
+   
+}
+
+.hero-h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200%;
+    font-size: 8rem;
+   
+}
+/* Hero slide details*/
+.details{
+    color: white;
+    font-size: 2rem;
+    margin-top: 4em;
+    text-transform: uppercase;
+}
+/* Hero slide price*/
+.price{
+    color: gray;
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+/* Hero drive now button*/
+.dirve-now {
+    color: white;
+    background-color: transparent;
+    width: 15em;
+    height: 4.4em;
+    margin-top: 5em;
+    border: solid 0.9px;
+    border-color: #e39101;
+}
+
+.dirve-now:hover {
+    background-color: #e39101;
+
+}
+
+.dirve-now:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+.heroImage {
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.car-picture {
+    margin-bottom: 20em;
+    width: 1000px;
+    height: 900px;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+
+
