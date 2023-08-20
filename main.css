@@ -26,31 +26,43 @@ html{
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     background: none;
     padding-top: 4em;
-    margin-left: 12em;
-    display: flex;
-
+    
+    align-items: center;
+    width: 1400px;
+    flex-direction: row;
+    padding-left: 12rem;
     
 }
 
 .headerNav{
+    display: flex;
     margin: 2em;
-    margin-left: 10em;
+    width: 100em;
+    justify-content: center;
+
     
 }
+.headerbtn-wrapper {
+    display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
 
+    width: 400px;
+    height: 50px;
+}
 .headerbtn{
     justify-content: flex-end;
     justify-content: end;
-    margin-right: 10em;
+    
     background-color: #e39101;
     border: 0;
     color: white;
     padding:1em;
     height: 3em;
-    display: flex;
+    
 
 }
 .headerbtn:hover {
@@ -65,12 +77,8 @@ header{
 .headerNav ul{
     list-style-type: none;
     display: flex;
-    gap: 8em;
-    margin-right: 55em;
-    justify-content: space-between;
-    
-    
-    
+    gap: 10em;
+    align-items: flex-start;
 }
 .headerNav a{
     text-decoration: none;
@@ -112,12 +120,24 @@ header{
     margin: 5em;
 }
 /* Hero div for texts and button*/
+.text-wrapper {
+    width: 59em;
+    height: 70em;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
 .heroTexts{
-    display: block;
-   height: 53em;
-   width: 52em;
-   margin-top: 15em;
-   margin-left: 19em;
+    display: flex;
+   
+   
+  width: min-content;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+
+
    
 }
 
@@ -126,20 +146,23 @@ header{
     text-transform: uppercase;
     font-weight: 200%;
     font-size: 8rem;
+    
    
 }
 /* Hero slide details*/
 .details{
     color: white;
     font-size: 2rem;
-    margin-top: 4em;
     text-transform: uppercase;
+    padding-top: 2em;
+    
 }
 /* Hero slide price*/
 .price{
     color: gray;
     font-size: 1.5rem;
-    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 5em;
 }
 /* Hero drive now button*/
 .dirve-now {
@@ -147,7 +170,6 @@ header{
     background-color: transparent;
     width: 15em;
     height: 4.4em;
-    margin-top: 5em;
     border: solid 0.9px;
     border-color: #e39101;
 }
@@ -169,7 +191,6 @@ header{
     z-index: -1;
 }
 .car-picture {
-    margin-bottom: 20em;
     width: 1000px;
     height: 900px;
     object-fit: cover;
