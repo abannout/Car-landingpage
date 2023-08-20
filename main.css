@@ -31,7 +31,7 @@ header{
     padding-top: 4em;
     
     align-items: center;
-    width: 1400px;
+    width: 1500px;
     flex-direction: row;
     padding-left: 12rem;
     
@@ -50,7 +50,7 @@ header{
    align-items: flex-end;
    justify-content: flex-end;
 
-    width: 400px;
+    width: 715px;
     height: 50px;
 }
 .headerbtn{
@@ -100,15 +100,17 @@ header{
 }
 /* socialmedia div*/
 .socialMedia{
-    height: 520px;
+    height: 300px;
     width: 100px;
     margin-left: 6em;
     margin-top: 13em;
 }
 /* list of the icons */
 .socialMedia ul {  
+    display: flex;
     list-style-type: none;
-    line-height: 50px;
+    line-height: 25px;
+    flex-direction: column;
     
     
 } 
@@ -130,15 +132,10 @@ header{
 }
 .heroTexts{
     display: flex;
-   
-   
-  width: min-content;
-  align-items: flex-start;
-  justify-content: flex-end;
-  flex-direction: column;
-
-
-   
+    width: min-content;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;   
 }
 
 .hero-h1{
