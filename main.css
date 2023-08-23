@@ -12,7 +12,7 @@ html{
 .wrapper{
     max-width: 100%;
     margin: 0 auto;
-    position: relative;
+    
 }
 /*header*/
 /* background top left box of header*/
@@ -194,5 +194,125 @@ header{
     filter: brightness(60%);
 }
 
+/* Seond section css*/
+.second-section-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
+}
+.second-header-wrapper {
+    display: flex;
+    height: 18em;
+    width: 157em;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+#second-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    display: flex;
+    
+   
+    
+}
+
+.second-details-wrapper {
+    display: flex;
+    width: 52em;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3em;
+}
+
+.second-details-wrapper ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+    
+}
+
+.second-details-wrapper a{
+    text-decoration: none;
+    color: white;
+}
+
+.second-details-wrapper i{
+    color: rgb(70, 70, 70);
+    padding: 0.5em;
+}
+
+.view-button {
+    color: white;
+    background-color: transparent;
+    width: 15em;
+    height: 4.4em;
+    border: solid 0.9px;
+    border-color: #e39101;
+}
+
+.view-button:hover {
+    background-color: #e39101;
+}
+
+
+/* Seond section carcards*/
+.second-car-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    height: 40em;
+    align-items: flex-end;
+
+    
+}
+
+.second-car-wrapper img {
+    width: 30em;
+    height: 100%;
+    object-fit: scale-down;
+   
+    
+}
+.car-details {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+.description {
+    color: gray;
+    font-size: 1.8rem;
+   
+    
+}
+.car {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.details-align {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carcard-price {
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .car button {
+    color: #e39101;
+    background:none;
+    border: 0;
+    height: 4em;
+ }
+ .car-div {
+    height: 18em;
+ }
 
